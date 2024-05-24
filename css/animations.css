@@ -1,0 +1,25 @@
+.animate-fall {
+  animation: fall 7s ease-out forwards infinite;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-450px) rotate(-90deg);
+  }
+  100% {
+    transform: translateY(450px) rotate(0deg);
+  }
+}
+
+.animate-fall-reverse {
+  animation: fall-reverse 7s ease-out forwards infinite;
+}
+
+@keyframes fall-reverse {
+  0% {
+    transform: translateY(-450px) rotate(90deg);
+  }
+  100% {
+    transform: translateY(450px) rotate(0deg);
+  }
+}
